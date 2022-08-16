@@ -67,6 +67,21 @@ public class UserDaoImpl extends AbstactDAO implements UserDaoInter {
     }
 
     @Override
+    public boolean addUser(User u) {
+        try (Connection c = connect()) {//try with resources
+            PreparedStatement prepared = c.prepareStatement("insert into user (name, surname, phone,email) values(?,?,?,?)");
+         prepared.setString(1,u.getName());
+         prepared.setString(2,u.getSurname());
+         prepared.setString(3,u.getPhone());
+         prepared.setString(4,u.getEmail());
+         return prepared.execute();
+        } catch (Exception e) {
+            e.printStackTrace();
+            return false;
+        }
+    }
+
+    @Override
     public boolean removeUser(int id) {
         try (Connection c = connect()) {
 
@@ -77,6 +92,8 @@ public class UserDaoImpl extends AbstactDAO implements UserDaoInter {
             return false;
         }
     }
+
+
 
     @Override
     public User getById(int userId) {

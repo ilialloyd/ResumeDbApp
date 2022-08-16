@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af7b69e1-29bf-41c2-aa3a-56e494693dba" name="Changes" comment="" />
+    <list default="true" id="af7b69e1-29bf-41c2-aa3a-56e494693dba" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/main/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/dao/inter/UserDaoInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/dao/inter/UserDaoInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/company/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/main/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
